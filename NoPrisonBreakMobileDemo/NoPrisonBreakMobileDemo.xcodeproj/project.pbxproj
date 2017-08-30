@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD5AEEC1F565C8B00B7215F /* put ipa or app here in Resources */ = {isa = PBXBuildFile; fileRef = 5AD5AEEB1F565C8B00B7215F /* put ipa or app here */; };
+		5AD5AEF61F565C8B00B7215F /* Cycript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD5AEF51F565C8B00B7215F /* Cycript.framework */; };
+		5AD5AEF81F565C8B00B7215F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD5AEF71F565C8B00B7215F /* JavaScriptCore.framework */; };
+		5AD5AEFA1F565C8B00B7215F /* RevealServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD5AEF91F565C8B00B7215F /* RevealServer.framework */; };
+		5AD5AEFC1F565C8B00B7215F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD5AEFB1F565C8B00B7215F /* Foundation.framework */; };
+		5AD5AEFE1F565C8B00B7215F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD5AEFD1F565C8B00B7215F /* UIKit.framework */; };
+		5AD5AF041F565C8B00B7215F /* CaptainHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD5AF031F565C8B00B7215F /* CaptainHook.h */; };
+		5AD5AF071F565C8B00B7215F /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5AF061F565C8B00B7215F /* AntiAntiDebug.m */; };
+		5AD5AF0A1F565C8B00B7215F /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5AF091F565C8B00B7215F /* fishhook.c */; };
+		5AD5AF0C1F565C8B00B7215F /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD5AF0B1F565C8B00B7215F /* fishhook.h */; };
+		5AD5AF0F1F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5AF0E1F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.mm */; };
+		5AD5AF111F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD5AF101F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.h */; };
+		5AD5AF131F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5AF121F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AD5AF1C1F565CD300B7215F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD5AEDE1F565C8B00B7215F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD5AEF21F565C8B00B7215F;
+			remoteInfo = NoPrisonBreakMobileDemoDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AD5AEE71F565C8B00B7215F /* NoPrisonBreakMobileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoPrisonBreakMobileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD5AEEB1F565C8B00B7215F /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		5AD5AEED1F565C8B00B7215F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD5AEF31F565C8B00B7215F /* libNoPrisonBreakMobileDemoDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libNoPrisonBreakMobileDemoDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD5AEF51F565C8B00B7215F /* Cycript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cycript.framework; path = Library/Frameworks/Cycript.framework; sourceTree = DEVELOPER_DIR; };
+		5AD5AEF71F565C8B00B7215F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5AD5AEF91F565C8B00B7215F /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevealServer.framework; path = Library/Frameworks/RevealServer.framework; sourceTree = DEVELOPER_DIR; };
+		5AD5AEFB1F565C8B00B7215F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AD5AEFD1F565C8B00B7215F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AD5AF011F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoPrisonBreakMobileDemoDylib-Prefix.pch"; sourceTree = "<group>"; };
+		5AD5AF031F565C8B00B7215F /* CaptainHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CaptainHook.h; path = CaptainHook/CaptainHook.h; sourceTree = "<group>"; };
+		5AD5AF061F565C8B00B7215F /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		5AD5AF091F565C8B00B7215F /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		5AD5AF0B1F565C8B00B7215F /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		5AD5AF0D1F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NoPrisonBreakMobileDemoDylib.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5AD5AF0E1F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NoPrisonBreakMobileDemoDylib.mm; sourceTree = "<group>"; };
+		5AD5AF101F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoPrisonBreakMobileDemoDylib.h; sourceTree = "<group>"; };
+		5AD5AF121F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoPrisonBreakMobileDemoDylib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD5AEE31F565C8B00B7215F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD5AEF01F565C8B00B7215F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD5AEF81F565C8B00B7215F /* JavaScriptCore.framework in Frameworks */,
+				5AD5AEFA1F565C8B00B7215F /* RevealServer.framework in Frameworks */,
+				5AD5AEF61F565C8B00B7215F /* Cycript.framework in Frameworks */,
+				5AD5AEFC1F565C8B00B7215F /* Foundation.framework in Frameworks */,
+				5AD5AEFE1F565C8B00B7215F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD5AEDD1F565C8B00B7215F = {
+			isa = PBXGroup;
+			children = (
+				5AD5AEE91F565C8B00B7215F /* NoPrisonBreakMobileDemo */,
+				5AD5AEFF1F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib */,
+				5AD5AEF41F565C8B00B7215F /* Frameworks */,
+				5AD5AEE81F565C8B00B7215F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD5AEE81F565C8B00B7215F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5AEE71F565C8B00B7215F /* NoPrisonBreakMobileDemo.app */,
+				5AD5AEF31F565C8B00B7215F /* libNoPrisonBreakMobileDemoDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD5AEE91F565C8B00B7215F /* NoPrisonBreakMobileDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5AEED1F565C8B00B7215F /* Info.plist */,
+				5AD5AEEA1F565C8B00B7215F /* TargetApp */,
+			);
+			path = NoPrisonBreakMobileDemo;
+			sourceTree = "<group>";
+		};
+		5AD5AEEA1F565C8B00B7215F /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5AEEB1F565C8B00B7215F /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		5AD5AEF41F565C8B00B7215F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5AEF51F565C8B00B7215F /* Cycript.framework */,
+				5AD5AEF71F565C8B00B7215F /* JavaScriptCore.framework */,
+				5AD5AEF91F565C8B00B7215F /* RevealServer.framework */,
+				5AD5AEFB1F565C8B00B7215F /* Foundation.framework */,
+				5AD5AEFD1F565C8B00B7215F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AD5AEFF1F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5AF0D1F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.xm */,
+				5AD5AF0E1F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.mm */,
+				5AD5AF101F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.h */,
+				5AD5AF121F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.m */,
+				5AD5AF021F565C8B00B7215F /* CaptainHook */,
+				5AD5AF051F565C8B00B7215F /* AntiAntiDebug */,
+				5AD5AF081F565C8B00B7215F /* fishhook */,
+				5AD5AF001F565C8B00B7215F /* Supporting Files */,
+			);
+			path = NoPrisonBreakMobileDemoDylib;
+			sourceTree = "<group>";
+		};
+		5AD5AF001F565C8B00B7215F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5AF011F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AD5AF021F565C8B00B7215F /* CaptainHook */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5AF031F565C8B00B7215F /* CaptainHook.h */,
+			);
+			name = CaptainHook;
+			sourceTree = "<group>";
+		};
+		5AD5AF051F565C8B00B7215F /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5AF061F565C8B00B7215F /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		5AD5AF081F565C8B00B7215F /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5AF091F565C8B00B7215F /* fishhook.c */,
+				5AD5AF0B1F565C8B00B7215F /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AD5AEF11F565C8B00B7215F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD5AF041F565C8B00B7215F /* CaptainHook.h in Headers */,
+				5AD5AF111F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.h in Headers */,
+				5AD5AF0C1F565C8B00B7215F /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5AD5AEE61F565C8B00B7215F /* NoPrisonBreakMobileDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD5AF161F565C8B00B7215F /* Build configuration list for PBXNativeTarget "NoPrisonBreakMobileDemo" */;
+			buildPhases = (
+				5AD5AEE21F565C8B00B7215F /* Sources */,
+				5AD5AEE31F565C8B00B7215F /* Frameworks */,
+				5AD5AEE41F565C8B00B7215F /* Resources */,
+				5AD5AEE51F565C8B00B7215F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD5AF1D1F565CD300B7215F /* PBXTargetDependency */,
+			);
+			name = NoPrisonBreakMobileDemo;
+			productName = NoPrisonBreakMobileDemo;
+			productReference = 5AD5AEE71F565C8B00B7215F /* NoPrisonBreakMobileDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AD5AEF21F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD5AF191F565C8B00B7215F /* Build configuration list for PBXNativeTarget "NoPrisonBreakMobileDemoDylib" */;
+			buildPhases = (
+				5AD5AEEE1F565C8B00B7215F /* ShellScript */,
+				5AD5AEEF1F565C8B00B7215F /* Sources */,
+				5AD5AEF01F565C8B00B7215F /* Frameworks */,
+				5AD5AEF11F565C8B00B7215F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoPrisonBreakMobileDemoDylib;
+			productName = NoPrisonBreakMobileDemoDylib;
+			productReference = 5AD5AEF31F565C8B00B7215F /* libNoPrisonBreakMobileDemoDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD5AEDE1F565C8B00B7215F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sensencoder;
+				TargetAttributes = {
+					5AD5AEE61F565C8B00B7215F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 99NP86F7VT;
+						ProvisioningStyle = Automatic;
+					};
+					5AD5AEF21F565C8B00B7215F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 99NP86F7VT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5AD5AEE11F565C8B00B7215F /* Build configuration list for PBXProject "NoPrisonBreakMobileDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AD5AEDD1F565C8B00B7215F;
+			productRefGroup = 5AD5AEE81F565C8B00B7215F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD5AEE61F565C8B00B7215F /* NoPrisonBreakMobileDemo */,
+				5AD5AEF21F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD5AEE41F565C8B00B7215F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD5AEEC1F565C8B00B7215F /* put ipa or app here in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AD5AEE51F565C8B00B7215F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		5AD5AEEE1F565C8B00B7215F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD5AEE21F565C8B00B7215F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD5AEEF1F565C8B00B7215F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD5AF0F1F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.mm in Sources */,
+				5AD5AF0A1F565C8B00B7215F /* fishhook.c in Sources */,
+				5AD5AF071F565C8B00B7215F /* AntiAntiDebug.m in Sources */,
+				5AD5AF131F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AD5AF1D1F565CD300B7215F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD5AEF21F565C8B00B7215F /* NoPrisonBreakMobileDemoDylib */;
+			targetProxy = 5AD5AF1C1F565CD300B7215F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AD5AF141F565C8B00B7215F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AD5AF151F565C8B00B7215F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AD5AF171F565C8B00B7215F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 99NP86F7VT;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NoPrisonBreakMobileDemo/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = sensencoder.NoPrisonBreakMobileDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AD5AF181F565C8B00B7215F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 99NP86F7VT;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NoPrisonBreakMobileDemo/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = sensencoder.NoPrisonBreakMobileDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AD5AF1A1F565C8B00B7215F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 99NP86F7VT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoPrisonBreakMobileDemoDylib/NoPrisonBreakMobileDemoDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libNoPrisonBreakMobileDemoDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"NoPrisonBreakMobileDemoDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		5AD5AF1B1F565C8B00B7215F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 99NP86F7VT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoPrisonBreakMobileDemoDylib/NoPrisonBreakMobileDemoDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libNoPrisonBreakMobileDemoDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"NoPrisonBreakMobileDemoDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD5AEE11F565C8B00B7215F /* Build configuration list for PBXProject "NoPrisonBreakMobileDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD5AF141F565C8B00B7215F /* Debug */,
+				5AD5AF151F565C8B00B7215F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD5AF161F565C8B00B7215F /* Build configuration list for PBXNativeTarget "NoPrisonBreakMobileDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD5AF171F565C8B00B7215F /* Debug */,
+				5AD5AF181F565C8B00B7215F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AD5AF191F565C8B00B7215F /* Build configuration list for PBXNativeTarget "NoPrisonBreakMobileDemoDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD5AF1A1F565C8B00B7215F /* Debug */,
+				5AD5AF1B1F565C8B00B7215F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD5AEDE1F565C8B00B7215F /* Project object */;
+}
